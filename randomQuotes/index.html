@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Random Quotes</title>
+
+        <!-- Custom Styles -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div id="container">
+            <div id="functionQuote">
+              <h1>Custom Quotes</h1>
+                <form>
+                    <label>
+                        Combien de citation voulez-vous?<br>
+                         <input type="text" id="numQuotes" class="form-control">
+                    </label>
+                    <label>
+                        Quel type de citatation voulez-vous?<br>
+                        <select id="typeQuotes" class="form-control">
+                            <option selected value="0">-- Choose an option --</option>
+                            <option value="1"> -- Bizarre  -- </option>
+                            <option value="2"> -- Humour  -- </option>
+                        </select>
+                    </label>
+                     <button type="button" id="customQuotes">Générer</button>
+                </form>
+
+            </div><!-- functionQuote  -->
+
+            <div>
+                <blockquote>
+                   <p id="showQuotes">Votre citation ici</p>
+                </blockquote>
+
+            </div><!-- showQuotes -->
+        </div><!-- container -->
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>

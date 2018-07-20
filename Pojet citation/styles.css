@@ -1,0 +1,33 @@
+.container {
+	width: 800px;
+	margin: 50px auto;
+	padding: 50px;
+	box-sizing: border-box;
+	box-shadow: 0 10px 15px -8px #4997bd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: 'Lobster', cursive;
+}
+
+#generer {
+	width: 30%;
+	height: 50px;
+	background-color: #4997bd;
+	border: none;
+	font-size: 18px;
+}
+
+.button:hover {
+	background-color: #eee;
+}
+.button:active {
+	background-color: #ddd;
+}
+.button:focus {
+	outline: none;
+}
+
+blockquote {
+	font-family: 'Indie Flower', cursive;
+}
